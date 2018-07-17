@@ -10,7 +10,11 @@ db.sequelize.sync().done(() => {
 app.listen(app.get('port'),() =>{
     console.log('Server on port', app.get('port'));    
 });
+<<<<<<< HEAD
  // segunda modificacion de ramenraceco
+=======
+//modificacion de lizzmar como master
+>>>>>>> master
 
 const db = require('./database');
 db.sequelize.sync().done(() => {
